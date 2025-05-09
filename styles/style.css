@@ -433,10 +433,16 @@ footer div img{
         margin-bottom: 20px;
         object-fit: cover;
     }
-    .lixo-eletronico .cards, .contato .cards{
+    .lixo-eletronico .cards, .contato .cards, .solucoes-sustentaveis .cards{
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+    .solucoes-sustentaveis .cards .card{
+        padding: 40px 8px;
+    }
+    .solucoes-sustentaveis h2{
+        text-align: center;
     }
     .navbar .all-links {
         position: fixed;
