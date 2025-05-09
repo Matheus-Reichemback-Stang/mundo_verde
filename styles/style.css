@@ -223,21 +223,23 @@
     .lixo-eletronico > p, .lixo-eletronico h2{
         color: #dce1e2;
     }
-    .lixo-eletronico h2, .contato h2{
+    .lixo-eletronico h2, .contato h2, .solucoes-sustentaveis h2{
         font-size: 40px;
     }
-    .lixo-eletronico p, .contato > p{
+    .lixo-eletronico p, .contato > p, .solucoes-sustentaveis p{
         font-size: 18px;
     }
-    .lixo-eletronico .cards, .contato .cards{
+    .lixo-eletronico .cards, .contato .cards, .solucoes-sustentaveis .cards{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 40px;
     }
-    .lixo-eletronico .cards .card, .contato .cards .card {
+    .lixo-eletronico .cards .card {
+        background-color: #dce1e2;
+    }
+    .lixo-eletronico .cards .card, .contato .cards .card, .solucoes-sustentaveis .cards .card{
         width: 100%;
         margin: 0;
-        background-color: #dce1e2;
     }
     .lixo-eletronico .card img {
         height: 248px;
@@ -268,6 +270,42 @@
         cursor: pointer;
     }
 
+    .solucoes-sustentaveis {
+        background-color: #2f3640;
+        padding-bottom: 64px;
+        color: #3498db;
+    }
+    .solucoes-sustentaveis h3{
+        font-size: 24px;
+    }
+    .solucoes-sustentaveis .cards .card {
+        text-align: start;
+        background-color: rgba(113, 128, 147, 0.2);
+    }
+    .solucoes-sustentaveis .cards .card p {
+        padding: 0;
+        color: #dce1e2;
+    }
+    .solucoes-sustentaveis .list li{
+        margin-top: 16px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .solucoes-sustentaveis .cards .card.image {
+        padding: 0;
+    }
+    .solucoes-sustentaveis .cards .card.image img{
+        border-radius: 5px;
+        height: 100%;
+        width: 100%;
+    }
+    .tituloMenor{
+        color: #27ae60;
+    }
+    .marginTop{
+        margin-top: 18px;
+    }
+
     .contato{
         background-color: #2f3640;
         padding-bottom: 64px;
@@ -291,7 +329,7 @@
         justify-content: center;
         gap: 16px;
     }
-    .contato .card #githubIcon, .contato .card #linkedinIcon{
+    .contato .card #githubButton, .contato .card #linkedinButton{
         display: flex;
         align-items: center;
         gap: 8px;
@@ -301,7 +339,7 @@
         text-decoration: none;
         color: white;
     }
-    .contato .card #linkedinIcon{
+    .contato .card #linkedinButton{
         background-color: #147abe;
     }
     /* FIM DO CÓDIGO DO LIXO ELETRONICO E CONTATO */
